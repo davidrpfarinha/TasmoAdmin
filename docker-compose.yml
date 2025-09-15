@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: .docker/Dockerfile.alpine-tmpl
     ports:
-      - "8000:80"
+      - "8181:8181"
     environment:
       - TASMO_DATADIR=/data/tasmoadmin/
       - TASMO_DEBUG=1
