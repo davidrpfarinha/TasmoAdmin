@@ -26,7 +26,7 @@ class Config
         'login' => '1',
         'scan_from_ip' => '192.168.178.2',
         'scan_to_ip' => '192.168.178.254',
-        'port' => '80',
+        'port' => '8181',
         'homepage' => 'start',
         'check_for_updates' => '3',
         'minimize_resources' => '1',
